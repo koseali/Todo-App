@@ -94,13 +94,13 @@
 		8123750F27248A44002C2F2B /* TodoApp */ = {
 			isa = PBXGroup;
 			children = (
-				8123755427249F08002C2F2B /* Extensions */,
 				8123752E27248F29002C2F2B /* AppContainer.swift */,
 				8123752C27248F16002C2F2B /* AppRouter.swift */,
 				8123751027248A44002C2F2B /* AppDelegate.swift */,
 				8123751227248A44002C2F2B /* SceneDelegate.swift */,
 				8123753427248FAE002C2F2B /* Main */,
 				81237546272495D0002C2F2B /* Detail */,
+				8123755427249F08002C2F2B /* Extensions */,
 				8123752727248AEC002C2F2B /* Managers */,
 				8123751C27248A45002C2F2B /* Assets.xcassets */,
 				8123751E27248A45002C2F2B /* LaunchScreen.storyboard */,
