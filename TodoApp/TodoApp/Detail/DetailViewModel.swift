@@ -59,16 +59,21 @@ class DetailViewModel : DetailViewModelProtocol {
                 // Degisiklik olmadiginda secilen veride sayfa yenilenmiyor.
                 delegate?.navigate(to: .goBack)
             } else {
-                // eski notification once bildrimini siliyorum eskiden gelen title a gore
-                notificationManager.deleteOldNotificationForUpdate(title: title)
-                dataManager.updateData(todoItem: todoItem, title: title, subtitle: detail, date: deadlineDate)
-                // Veri tabani guncelledikten sonra tekrar bildirim ekliyorum
-                let dateComponent = Calendar.current.dateComponents([.year,.month,.day, .hour, .minute], from: date)
-                let notification : Notification = Notification(id: UUID().uuidString , title: title, subTitle: detail, date: dateComponent)
-                notificationManager.notifications.append(notification)
-                notificationManager.schedule()
-                appContainer.ischange = true
-                delegate?.navigate(to: .saveAndBack)
+                if title != "" {
+                    // eski notification once bildrimini siliyorum eskiden gelen title a gore
+                    notificationManager.deleteOldNotificationForUpdate(title: title)
+                    dataManager.updateData(todoItem: todoItem, title: title, subtitle: detail, date: deadlineDate)
+                    // Veri tabani guncelledikten sonra tekrar bildirim ekliyorum
+                    let dateComponent = Calendar.current.dateComponents([.year,.month,.day, .hour, .minute], from: date)
+                    let notification : Notification = Notification(id: UUID().uuidString , title: title, subTitle: detail, date: dateComponent)
+                    notificationManager.notifications.append(notification)
+                    notificationManager.schedule()
+                    appContainer.ischange = true
+                    delegate?.navigate(to: .saveAndBack)
+
+                } else {
+                    delegate?.handleOutput(.showAlert)
+                }
             }
             
         case .none:
