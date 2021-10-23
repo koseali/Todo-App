@@ -17,16 +17,15 @@ class MainvViewRouter : MainViewRouterProtocol {
     func navigate(to route: MainViewRoute) {
         switch route {
         case .showTodoDetail(let todoTasks):
-            print("Detail e route la")
-         //   let detailView = DetailViewBuilder.build(with: todoTasks,
-          //                                           screenType: .DetailView)
-        //    view.navigationController?.pushViewController(detailView, animated: true)
+    
+            let detailView = DetailViewBuilder.build(with: todoTasks,
+                                                     screenType: .DetailView)
+            view.navigationController?.pushViewController(detailView, animated: true)
             
         case .showAddView:
-            print("eklemeye  route la")
 
-       //     let addView = DetailViewBuilder.build(with: TodoTasks(), screenType: .AddView)
-         //   view.navigationController?.pushViewController(addView, animated: true)
+            let addView = DetailViewBuilder.build(with: TodoTasks(), screenType: .AddView)
+            view.navigationController?.pushViewController(addView, animated: true)
         }
     }
     deinit {
