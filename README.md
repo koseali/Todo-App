@@ -3,7 +3,8 @@
 
 ![Screens](https://github.com/koseali/PatikaTodoApp/blob/feature/Todo/PromotionFolder/splashScreen.gif)
 ![Screens](https://github.com/koseali/PatikaTodoApp/blob/feature/Todo/PromotionFolder/promotion.png)
-
+![Screens](https://github.com/koseali/PatikaTodoApp/blob/feature/Todo/PromotionFolder/delete.gif)
+![Screens](https://github.com/koseali/PatikaTodoApp/blob/feature/Todo/PromotionFolder/searchandSort.gif)
 
 <!-- GETTING STARTED -->
 ## Getting Started
