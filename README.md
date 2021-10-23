@@ -51,4 +51,4 @@ Her iki ekran için ortak olan özellikler:
 
 ## Design Patterns
 ![VIPER](https://miro.medium.com/max/1400/1*rPJUik6uuFvkBR1mnSoQGw.png)
-![MVVM](https://miro.medium.com/max/1400/1*rPJUik6uuFvkBR1mnSoQGw.png)
+![MVVM](https://github.com/koseali/PatikaTodoApp/blob/feature/Todo/PromotionFolder/viper.png)
