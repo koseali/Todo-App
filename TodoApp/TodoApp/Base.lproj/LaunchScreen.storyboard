@@ -16,24 +16,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appIcon" translatesAutoresizingMaskIntoConstraints="NO" id="d8Z-JS-Wd7">
-                                <rect key="frame" x="87" y="-59" width="240" height="1024"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Life Your Targets" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6On-1q-FRj">
+                                <rect key="frame" x="89.5" y="613" width="235" height="25"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="TD5-55-Vyn"/>
+                                    <constraint firstAttribute="height" constant="25" id="ZR4-nt-QHC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appIcon" translatesAutoresizingMaskIntoConstraints="NO" id="d8Z-JS-Wd7">
+                                <rect key="frame" x="-305" y="333" width="1024" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="TD5-55-Vyn"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.97254908080000002" green="0.98039215800000001" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="d8Z-JS-Wd7" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="4fe-Xq-9OB"/>
-                            <constraint firstItem="d8Z-JS-Wd7" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="jEI-8V-Msg"/>
+                            <constraint firstItem="6On-1q-FRj" firstAttribute="top" secondItem="d8Z-JS-Wd7" secondAttribute="bottom" constant="40" id="4fs-iY-nIY"/>
+                            <constraint firstItem="6On-1q-FRj" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="DxK-3d-l4x"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="6On-1q-FRj" secondAttribute="trailing" constant="20" id="T4K-xy-gNp"/>
+                            <constraint firstItem="d8Z-JS-Wd7" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="UJ1-m9-9xT"/>
+                            <constraint firstItem="6On-1q-FRj" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="fsn-QT-rDf"/>
+                            <constraint firstItem="d8Z-JS-Wd7" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="sIG-YI-ue9"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
         </scene>
     </scenes>
     <resources>
