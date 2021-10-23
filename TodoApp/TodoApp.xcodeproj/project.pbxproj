@@ -14,6 +14,7 @@
 		8123751B27248A44002C2F2B /* TodoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8123751927248A44002C2F2B /* TodoApp.xcdatamodeld */; };
 		8123751D27248A45002C2F2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8123751C27248A45002C2F2B /* Assets.xcassets */; };
 		8123752027248A45002C2F2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8123751E27248A45002C2F2B /* LaunchScreen.storyboard */; };
+		8123752927248B2B002C2F2B /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8123752827248B2B002C2F2B /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8123751C27248A45002C2F2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8123751F27248A45002C2F2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8123752127248A45002C2F2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8123752827248B2B002C2F2B /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		8123750F27248A44002C2F2B /* TodoApp */ = {
 			isa = PBXGroup;
 			children = (
+				8123752727248AEC002C2F2B /* Managers */,
 				8123751027248A44002C2F2B /* AppDelegate.swift */,
 				8123751227248A44002C2F2B /* SceneDelegate.swift */,
 				8123751427248A44002C2F2B /* ViewController.swift */,
@@ -68,6 +71,14 @@
 				8123751927248A44002C2F2B /* TodoApp.xcdatamodeld */,
 			);
 			path = TodoApp;
+			sourceTree = "<group>";
+		};
+		8123752727248AEC002C2F2B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				8123752827248B2B002C2F2B /* CoreDataManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +155,7 @@
 				8123751527248A44002C2F2B /* ViewController.swift in Sources */,
 				8123751127248A44002C2F2B /* AppDelegate.swift in Sources */,
 				8123751327248A44002C2F2B /* SceneDelegate.swift in Sources */,
+				8123752927248B2B002C2F2B /* CoreDataManager.swift in Sources */,
 				8123751B27248A44002C2F2B /* TodoApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
