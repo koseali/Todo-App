@@ -16,4 +16,12 @@ extension UIView {
         set { self.layer.cornerRadius = newValue}
     }
     
+    func moveKeyboard(){
+        NotificationCenter.default.addObserver(self, selector: #selector(changeKeyboard(_:)), name: UIResponder.keyboardWillChangeFrameNotification, object: nil)
+    }
+    
+    @objc func  changeKeyboard(_ notification : NSNotification){
+        
+    }
+    
 }
