@@ -20,7 +20,7 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         presenter.viewDidLoad()
-        self.hideKeyboardWhenTappedAround()
+      //  self.hideKeyboardWhenTappedAround()
         print(data)
     }
     
