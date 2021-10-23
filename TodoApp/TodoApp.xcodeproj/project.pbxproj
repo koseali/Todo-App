@@ -25,6 +25,11 @@
 		81237540272491C3002C2F2B /* MainViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8123753F272491C3002C2F2B /* MainViewRouter.swift */; };
 		81237542272491F4002C2F2B /* MainViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81237541272491F4002C2F2B /* MainViewPresenter.swift */; };
 		812375442724922A002C2F2B /* MainViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812375432724922A002C2F2B /* MainViewTableViewCell.swift */; };
+		812375482724964F002C2F2B /* DetailViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812375472724964F002C2F2B /* DetailViewBuilder.swift */; };
+		8123754A2724965B002C2F2B /* DetailViewContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812375492724965B002C2F2B /* DetailViewContracts.swift */; };
+		8123754C27249677002C2F2B /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8123754B27249677002C2F2B /* DetailViewModel.swift */; };
+		8123754F27249690002C2F2B /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8123754D27249690002C2F2B /* DetailViewController.xib */; };
+		8123755027249690002C2F2B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8123754E27249690002C2F2B /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +53,11 @@
 		8123753F272491C3002C2F2B /* MainViewRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewRouter.swift; sourceTree = "<group>"; };
 		81237541272491F4002C2F2B /* MainViewPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewPresenter.swift; sourceTree = "<group>"; };
 		812375432724922A002C2F2B /* MainViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewTableViewCell.swift; sourceTree = "<group>"; };
+		812375472724964F002C2F2B /* DetailViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewBuilder.swift; sourceTree = "<group>"; };
+		812375492724965B002C2F2B /* DetailViewContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewContracts.swift; sourceTree = "<group>"; };
+		8123754B27249677002C2F2B /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		8123754D27249690002C2F2B /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		8123754E27249690002C2F2B /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +133,11 @@
 		81237546272495D0002C2F2B /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				812375472724964F002C2F2B /* DetailViewBuilder.swift */,
+				812375492724965B002C2F2B /* DetailViewContracts.swift */,
+				8123754D27249690002C2F2B /* DetailViewController.xib */,
+				8123754E27249690002C2F2B /* DetailViewController.swift */,
+				8123754B27249677002C2F2B /* DetailViewModel.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -188,6 +203,7 @@
 				8123752027248A45002C2F2B /* LaunchScreen.storyboard in Resources */,
 				8123753827248FDF002C2F2B /* MainView.storyboard in Resources */,
 				8123751D27248A45002C2F2B /* Assets.xcassets in Resources */,
+				8123754F27249690002C2F2B /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,10 +221,14 @@
 				8123753127248F55002C2F2B /* MainViewBuilder.swift in Sources */,
 				8123751127248A44002C2F2B /* AppDelegate.swift in Sources */,
 				81237540272491C3002C2F2B /* MainViewRouter.swift in Sources */,
+				812375482724964F002C2F2B /* DetailViewBuilder.swift in Sources */,
 				8123751327248A44002C2F2B /* SceneDelegate.swift in Sources */,
 				8123752D27248F16002C2F2B /* AppRouter.swift in Sources */,
+				8123755027249690002C2F2B /* DetailViewController.swift in Sources */,
 				8123752927248B2B002C2F2B /* CoreDataManager.swift in Sources */,
+				8123754A2724965B002C2F2B /* DetailViewContracts.swift in Sources */,
 				8123751B27248A44002C2F2B /* TodoApp.xcdatamodeld in Sources */,
+				8123754C27249677002C2F2B /* DetailViewModel.swift in Sources */,
 				8123753327248F7A002C2F2B /* MainViewController.swift in Sources */,
 				8123753E27249166002C2F2B /* MainViewInteractor.swift in Sources */,
 				8123753A272490E6002C2F2B /* MainViewContracts.swift in Sources */,
