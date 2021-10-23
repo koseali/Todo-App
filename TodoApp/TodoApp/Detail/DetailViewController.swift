@@ -28,7 +28,7 @@ class DetailViewController: UIViewController {
         viewModel.didLoad()
       //  self.hideKeyboardWhenTappedAround()
         createDatePicker()
-      //  button.moveKeyboard()
+        button.moveKeyboard()
         backButton.setTitle("", for: .normal)
     }
     
