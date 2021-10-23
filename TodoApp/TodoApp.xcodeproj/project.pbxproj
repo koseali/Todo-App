@@ -115,6 +115,7 @@
 			children = (
 				8123752A27248C46002C2F2B /* LocalNotificationManager.swift */,
 				8123752827248B2B002C2F2B /* CoreDataManager.swift */,
+				8123753B27249127002C2F2B /* ToDoPresentation.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -127,10 +128,9 @@
 				812375432724922A002C2F2B /* MainViewTableViewCell.swift */,
 				8123753227248F7A002C2F2B /* MainViewController.swift */,
 				81237539272490E6002C2F2B /* MainViewContracts.swift */,
-				81237541272491F4002C2F2B /* MainViewPresenter.swift */,
 				8123753D27249166002C2F2B /* MainViewInteractor.swift */,
+				81237541272491F4002C2F2B /* MainViewPresenter.swift */,
 				8123753F272491C3002C2F2B /* MainViewRouter.swift */,
-				8123753B27249127002C2F2B /* ToDoPresentation.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";

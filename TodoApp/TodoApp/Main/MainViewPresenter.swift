@@ -18,7 +18,7 @@ class MainViewPresenter : MainViewPresenterProtocol {
     }
     
     // init de  interactoru vermedim cunku veri gelmiyor ?
-    // Derste yasanilan problem builder da parametreye veriyi gectim.
+    // Derste yasanilan problem builder da parametreyLe veriyi gectim.
     
     init(mainView : MainViewProtocol, router : MainViewRouterProtocol){
         self.mainView = mainView
