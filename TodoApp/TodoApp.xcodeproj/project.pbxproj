@@ -30,6 +30,8 @@
 		8123754C27249677002C2F2B /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8123754B27249677002C2F2B /* DetailViewModel.swift */; };
 		8123754F27249690002C2F2B /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8123754D27249690002C2F2B /* DetailViewController.xib */; };
 		8123755027249690002C2F2B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8123754E27249690002C2F2B /* DetailViewController.swift */; };
+		8123755627249F1F002C2F2B /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8123755527249F1F002C2F2B /* UIView+.swift */; };
+		8123755827249F46002C2F2B /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8123755727249F46002C2F2B /* UIViewController+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,8 @@
 		8123754B27249677002C2F2B /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		8123754D27249690002C2F2B /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		8123754E27249690002C2F2B /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8123755527249F1F002C2F2B /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		8123755727249F46002C2F2B /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,7 @@
 		8123750F27248A44002C2F2B /* TodoApp */ = {
 			isa = PBXGroup;
 			children = (
+				8123755427249F08002C2F2B /* Extensions */,
 				8123752E27248F29002C2F2B /* AppContainer.swift */,
 				8123752C27248F16002C2F2B /* AppRouter.swift */,
 				8123751027248A44002C2F2B /* AppDelegate.swift */,
@@ -140,6 +145,15 @@
 				8123754B27249677002C2F2B /* DetailViewModel.swift */,
 			);
 			path = Detail;
+			sourceTree = "<group>";
+		};
+		8123755427249F08002C2F2B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8123755527249F1F002C2F2B /* UIView+.swift */,
+				8123755727249F46002C2F2B /* UIViewController+.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,6 +232,7 @@
 				8123753C27249127002C2F2B /* ToDoPresentation.swift in Sources */,
 				81237542272491F4002C2F2B /* MainViewPresenter.swift in Sources */,
 				8123752F27248F29002C2F2B /* AppContainer.swift in Sources */,
+				8123755627249F1F002C2F2B /* UIView+.swift in Sources */,
 				8123753127248F55002C2F2B /* MainViewBuilder.swift in Sources */,
 				8123751127248A44002C2F2B /* AppDelegate.swift in Sources */,
 				81237540272491C3002C2F2B /* MainViewRouter.swift in Sources */,
@@ -227,6 +242,7 @@
 				8123755027249690002C2F2B /* DetailViewController.swift in Sources */,
 				8123752927248B2B002C2F2B /* CoreDataManager.swift in Sources */,
 				8123754A2724965B002C2F2B /* DetailViewContracts.swift in Sources */,
+				8123755827249F46002C2F2B /* UIViewController+.swift in Sources */,
 				8123751B27248A44002C2F2B /* TodoApp.xcdatamodeld in Sources */,
 				8123754C27249677002C2F2B /* DetailViewModel.swift in Sources */,
 				8123753327248F7A002C2F2B /* MainViewController.swift in Sources */,
