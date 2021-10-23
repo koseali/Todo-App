@@ -29,7 +29,6 @@ class CoreDataManager : DataManagerProtocol {
     // Sadece  test data eklemek icin shared kullanildi.
     // static let shared = CoreDataManager()
     
-    
     lazy var persistentContainer: NSPersistentContainer = {
         let container = NSPersistentContainer(name: "TodoApp")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
