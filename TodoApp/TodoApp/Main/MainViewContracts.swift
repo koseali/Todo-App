@@ -65,7 +65,7 @@ protocol MainViewRouterProtocol   {
 }
 
 enum MainViewRoute {
-    case showBookDetail(TodoTasks)
+    case showTodoDetail(TodoTasks)
     case showAddView
 }
 

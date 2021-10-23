@@ -19,6 +19,12 @@
 		8123753127248F55002C2F2B /* MainViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8123753027248F55002C2F2B /* MainViewBuilder.swift */; };
 		8123753327248F7A002C2F2B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8123753227248F7A002C2F2B /* MainViewController.swift */; };
 		8123753827248FDF002C2F2B /* MainView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8123753727248FDF002C2F2B /* MainView.storyboard */; };
+		8123753A272490E6002C2F2B /* MainViewContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81237539272490E6002C2F2B /* MainViewContracts.swift */; };
+		8123753C27249127002C2F2B /* ToDoPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8123753B27249127002C2F2B /* ToDoPresentation.swift */; };
+		8123753E27249166002C2F2B /* MainViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8123753D27249166002C2F2B /* MainViewInteractor.swift */; };
+		81237540272491C3002C2F2B /* MainViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8123753F272491C3002C2F2B /* MainViewRouter.swift */; };
+		81237542272491F4002C2F2B /* MainViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81237541272491F4002C2F2B /* MainViewPresenter.swift */; };
+		812375442724922A002C2F2B /* MainViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812375432724922A002C2F2B /* MainViewTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +42,12 @@
 		8123753027248F55002C2F2B /* MainViewBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewBuilder.swift; sourceTree = "<group>"; };
 		8123753227248F7A002C2F2B /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		8123753727248FDF002C2F2B /* MainView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainView.storyboard; sourceTree = "<group>"; };
+		81237539272490E6002C2F2B /* MainViewContracts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewContracts.swift; sourceTree = "<group>"; };
+		8123753B27249127002C2F2B /* ToDoPresentation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoPresentation.swift; sourceTree = "<group>"; };
+		8123753D27249166002C2F2B /* MainViewInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewInteractor.swift; sourceTree = "<group>"; };
+		8123753F272491C3002C2F2B /* MainViewRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewRouter.swift; sourceTree = "<group>"; };
+		81237541272491F4002C2F2B /* MainViewPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewPresenter.swift; sourceTree = "<group>"; };
+		812375432724922A002C2F2B /* MainViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,11 +80,11 @@
 		8123750F27248A44002C2F2B /* TodoApp */ = {
 			isa = PBXGroup;
 			children = (
-				8123753427248FAE002C2F2B /* Main */,
 				8123752E27248F29002C2F2B /* AppContainer.swift */,
 				8123752C27248F16002C2F2B /* AppRouter.swift */,
 				8123751027248A44002C2F2B /* AppDelegate.swift */,
 				8123751227248A44002C2F2B /* SceneDelegate.swift */,
+				8123753427248FAE002C2F2B /* Main */,
 				8123752727248AEC002C2F2B /* Managers */,
 				8123751C27248A45002C2F2B /* Assets.xcassets */,
 				8123751E27248A45002C2F2B /* LaunchScreen.storyboard */,
@@ -96,7 +108,13 @@
 			children = (
 				8123753727248FDF002C2F2B /* MainView.storyboard */,
 				8123753027248F55002C2F2B /* MainViewBuilder.swift */,
+				812375432724922A002C2F2B /* MainViewTableViewCell.swift */,
 				8123753227248F7A002C2F2B /* MainViewController.swift */,
+				81237539272490E6002C2F2B /* MainViewContracts.swift */,
+				81237541272491F4002C2F2B /* MainViewPresenter.swift */,
+				8123753D27249166002C2F2B /* MainViewInteractor.swift */,
+				8123753F272491C3002C2F2B /* MainViewRouter.swift */,
+				8123753B27249127002C2F2B /* ToDoPresentation.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -173,14 +191,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				8123752B27248C46002C2F2B /* LocalNotificationManager.swift in Sources */,
+				8123753C27249127002C2F2B /* ToDoPresentation.swift in Sources */,
+				81237542272491F4002C2F2B /* MainViewPresenter.swift in Sources */,
 				8123752F27248F29002C2F2B /* AppContainer.swift in Sources */,
 				8123753127248F55002C2F2B /* MainViewBuilder.swift in Sources */,
 				8123751127248A44002C2F2B /* AppDelegate.swift in Sources */,
+				81237540272491C3002C2F2B /* MainViewRouter.swift in Sources */,
 				8123751327248A44002C2F2B /* SceneDelegate.swift in Sources */,
 				8123752D27248F16002C2F2B /* AppRouter.swift in Sources */,
 				8123752927248B2B002C2F2B /* CoreDataManager.swift in Sources */,
 				8123751B27248A44002C2F2B /* TodoApp.xcdatamodeld in Sources */,
 				8123753327248F7A002C2F2B /* MainViewController.swift in Sources */,
+				8123753E27249166002C2F2B /* MainViewInteractor.swift in Sources */,
+				8123753A272490E6002C2F2B /* MainViewContracts.swift in Sources */,
+				812375442724922A002C2F2B /* MainViewTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -62,7 +62,7 @@ extension MainViewPresenter : MainViewInteractorDelegate {
             mainView.handleOutput(.showToDo(data))
             
         case .detailData(let todo):
-            router.navigate(to: .showBookDetail(todo))
+            router.navigate(to: .showTodoDetail(todo))
             
         case .showSearchData(let searchDatas):
             let data = searchDatas.map(ToDoPresentation.init)
