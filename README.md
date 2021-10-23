@@ -42,16 +42,11 @@ Her iki ekran için ortak olan özellikler:
 
 ### Installation
 
-1. Get a free API Key at [https://newsapi.org/](https://newsapi.org/)
 2. Clone the repo
    ```sh
-   git clone https://github.com/koseali/NewsApp
+   git clone https://github.com/koseali/PatikaTodoApp.git
    ```
 
-3. Enter your API in `APIManager.swift`
-   ```JS
-   let apiKey = "ENTER YOUR API"
-   ```
 
 
 ## Design Patterns
