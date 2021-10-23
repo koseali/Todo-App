@@ -26,9 +26,9 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         viewModel.didLoad()
-        self.hideKeyboardWhenTappedAround()
+      //  self.hideKeyboardWhenTappedAround()
         createDatePicker()
-        button.moveKeyboard()
+      //  button.moveKeyboard()
         backButton.setTitle("", for: .normal)
     }
     
