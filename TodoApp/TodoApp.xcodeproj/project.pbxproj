@@ -96,6 +96,7 @@
 				8123751227248A44002C2F2B /* SceneDelegate.swift */,
 				8123753427248FAE002C2F2B /* Main */,
 				81237546272495D0002C2F2B /* Detail */,
+				8123755127249A59002C2F2B /* Extensions */,
 				8123752727248AEC002C2F2B /* Managers */,
 				8123751C27248A45002C2F2B /* Assets.xcassets */,
 				8123751E27248A45002C2F2B /* LaunchScreen.storyboard */,
@@ -140,6 +141,13 @@
 				8123754B27249677002C2F2B /* DetailViewModel.swift */,
 			);
 			path = Detail;
+			sourceTree = "<group>";
+		};
+		8123755127249A59002C2F2B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
