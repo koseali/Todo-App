@@ -1,7 +1,7 @@
 # PatikaTodoApp
 # Bootcamp Graduent Project
 
-![Screens](https://github.com/koseali/NewsApp/blob/main/promotionFile/promotion.png)
+![Screens](https://github.com/koseali/PatikaTodoApp/blob/feature/Todo/PromotionFolder/splashScreen.gif)
 
 
 <!-- GETTING STARTED -->
