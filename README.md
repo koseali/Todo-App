@@ -1,8 +1,8 @@
 # PatikaTodoApp
 # Bootcamp Graduent Project
 
-![Screens](https://github.com/koseali/PatikaTodoApp/blob/feature/Todo/PromotionFolder/splashScreen.gif)
 ![Screens](https://github.com/koseali/PatikaTodoApp/blob/feature/Todo/PromotionFolder/promotion.png)
+![Screens](https://github.com/koseali/PatikaTodoApp/blob/feature/Todo/PromotionFolder/splashScreen.gif)
 ![Screens](https://github.com/koseali/PatikaTodoApp/blob/feature/Todo/PromotionFolder/delete.gif)
 ![Screens](https://github.com/koseali/PatikaTodoApp/blob/feature/Todo/PromotionFolder/searchandSort.gif)
 
@@ -50,5 +50,5 @@ Her iki ekran için ortak olan özellikler:
 
 
 ## Design Patterns
-![VIPER](https://miro.medium.com/max/1400/1*rPJUik6uuFvkBR1mnSoQGw.png)
-![MVVM](https://github.com/koseali/PatikaTodoApp/blob/feature/Todo/PromotionFolder/viper.png)
+![VIPER](https://github.com/koseali/PatikaTodoApp/blob/feature/Todo/PromotionFolder/viper.png)
+![MVVM](https://cdn-images-1.medium.com/max/1600/1*uhPpTHYzTmHGrAZy8hiM7w.png)
